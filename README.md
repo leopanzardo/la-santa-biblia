@@ -84,10 +84,10 @@ adb install -r build/app/outputs/apk/release/la_santa_biblia.apk
   - 📂 [GitHub](https://github.com/leopanzardo)
   - 📬 [LinkedIn](https://www.linkedin.com/in/leopanzardo/)
 
-Iconografía, diseño, interfaz y desarrollo general por Leonardo Panzardo. 
-Tipografías utilizadas: Tangerine, EB Garamond y BlackKnightFLF. 
-Imagen de portada generada con inteligencia artificial (prompt engineering). 
-Texto bíblico proveniente de fuente libre (archivos JSON). 
+Iconografía, diseño, interfaz y desarrollo general por Leonardo Panzardo.  
+Tipografías utilizadas: Tangerine, EB Garamond y BlackKnightFLF.  
+Imagen de portada generada con inteligencia artificial (prompt engineering).  
+Texto bíblico proveniente de fuente libre (archivos JSON).
 
 ---
 
