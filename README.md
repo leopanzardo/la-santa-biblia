@@ -35,6 +35,7 @@ Una aplicación móvil desarrollada con Flutter que te permite leer la Biblia co
 
 ## 📂 Estructura del proyecto
 
+```
 lib/
 ├── main.dart
 ├── styles/
@@ -51,6 +52,7 @@ lib/
 │ └── versos_screen.dart
 └── utils/
 └── versiculo_utils.dart
+```
 
 ---
 
