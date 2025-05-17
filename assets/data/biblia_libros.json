@@ -1,0 +1,203 @@
+{
+	"Libros" : [
+		{
+			"id": 1,
+			"libro": "Génesis"
+		}, {
+			"id": 2,
+			"libro": "Éxodo"
+		}, {
+			"id": 3,
+			"libro": "Leviticus"
+		}, {
+			"id": 4,
+			"libro": "Números"
+		}, {
+			"id": 5,
+			"libro": "Deuteronomio"
+		}, {
+			"id": 6,
+			"libro": "Josué"
+		}, {
+			"id": 7,
+			"libro": "Jueces"
+		}, {
+			"id": 8,
+			"libro": "Rut"
+		}, {
+			"id": 9,
+			"libro": "1 Samuel"
+		}, {
+			"id": 10,
+			"libro": "2 Samuel"
+		}, {
+			"id": 11,
+			"libro": "1 Reyes"
+		}, {
+			"id": 12,
+			"libro": "2 Reyes"
+		}, {
+			"id": 13,
+			"libro": "1 Crónicas"
+		}, {
+			"id": 14,
+			"libro": "2 Crónicas"
+		}, {
+			"id": 15,
+			"libro": "Esdras"
+		}, {
+			"id": 16,
+			"libro": "Nehemías"
+		}, {
+			"id": 17,
+			"libro": "Ester"
+		}, {
+			"id": 18,
+			"libro": "Job"
+		}, {
+			"id": 19,
+			"libro": "Salmos"
+		}, {
+			"id": 20,
+			"libro": "Proverbios"
+		}, {
+			"id": 21,
+			"libro": "Eclesiastés"
+		}, {
+			"id": 22,
+			"libro": "Cantares"
+		}, {
+			"id": 23,
+			"libro": "Isaías"
+		}, {
+			"id": 24,
+			"libro": "Jeremías"
+		}, {
+			"id": 25,
+			"libro": "Lamentaciones"
+		}, {
+			"id": 26,
+			"libro": "Ezequiel"
+		}, {
+			"id": 27,
+			"libro": "Daniel"
+		}, {
+			"id": 28,
+			"libro": "Oseas"
+		}, {
+			"id": 29,
+			"libro": "Joel"
+		}, {
+			"id": 30,
+			"libro": "Amos"
+		}, {
+			"id": 31,
+			"libro": "Ardías"
+		}, {
+			"id": 32,
+			"libro": "Jonás"
+		}, {
+			"id": 33,
+			"libro": "Miqueas"
+		}, {
+			"id": 34,
+			"libro": "Nahúm"
+		}, {
+			"id": 35,
+			"libro": "Habacuc"
+		}, {
+			"id": 36,
+			"libro": "Sofonías"
+		}, {
+			"id": 37,
+			"libro": "Hageo"
+		}, {
+			"id": 38,
+			"libro": "Zacarías"
+		}, {
+			"id": 39,
+			"libro": "Malaquías"
+		}, {
+			"id": 40,
+			"libro": "Mateo"
+		}, {
+			"id": 41,
+			"libro": "Marcos"
+		}, {
+			"id": 42,
+			"libro": "Lucas"
+		}, {
+			"id": 43,
+			"libro": "Juan"
+		}, {
+			"id": 44,
+			"libro": "Hechos"
+		}, {
+			"id": 45,
+			"libro": "Romanos"
+		}, {
+			"id": 46,
+			"libro": "1 Corintios"
+		}, {
+			"id": 47,
+			"libro": "2 Corintios"
+		}, {
+			"id": 48,
+			"libro": "Gálatas"
+		}, {
+			"id": 49,
+			"libro": "Efesios"
+		}, {
+			"id": 50,
+			"libro": "Filipenses"
+		}, {
+			"id": 51,
+			"libro": "Colosenses"
+		}, {
+			"id": 52,
+			"libro": "1 Tesalonicenses"
+		}, {
+			"id": 53,
+			"libro": "2 Tesalonicenses"
+		}, {
+			"id": 54,
+			"libro": "1 Timoteo"
+		}, {
+			"id": 55,
+			"libro": "2 Timoteo"
+		}, {
+			"id": 56,
+			"libro": "Tito"
+		}, {
+			"id": 57,
+			"libro": "Filemón"
+		}, {
+			"id": 58,
+			"libro": "Hebreos"
+		}, {
+			"id": 59,
+			"libro": "Santiago"
+		}, {
+			"id": 60,
+			"libro": "1 Pedro"
+		}, {
+			"id": 61,
+			"libro": "2 Pedro"
+		}, {
+			"id": 62,
+			"libro": "1 Juan"
+		}, {
+			"id": 63,
+			"libro": "2 Juan"
+		}, {
+			"id": 64,
+			"libro": "3 Juan"
+		}, {
+			"id": 65,
+			"libro": "Judas"
+		}, {
+			"id": 66,
+			"libro": "Apocalipsis"
+		}
+	]
+}
