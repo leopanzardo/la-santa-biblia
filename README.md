@@ -78,20 +78,29 @@ adb install -r build/app/outputs/apk/release/la_santa_biblia.apk
 
 ## 👥 Autores y créditos
 
-Leonardo Panzardo
-👨‍💻 Senior Full Stack Software Engineer
-📍 Montevideo, Uruguay
-📬 linkedin.com/in/leonardopanzardo
-📂 Repositorio: github.com/leopanzardo/biblia
+- **Leonardo Panzardo**
+  - 👨‍💻 Senior Full Stack Software Engineer
+  - 📍 Montevideo, Uruguay
+  - 📂 [GitHub](https://github.com/leopanzardo)
+  - 📬 [LinkedIn](https://www.linkedin.com/in/leopanzardo/)
 
-Iconografía, diseño, interfaz y desarrollo general por Leonardo Panzardo.
-Tipografías utilizadas: Tangerine, EB Garamond y BlackKnightFLF.
-Imagen de portada generada con inteligencia artificial (prompt engineering).
-Texto bíblico proveniente de fuente libre (archivos JSON).
+Iconografía, diseño, interfaz y desarrollo general por Leonardo Panzardo. 
+Tipografías utilizadas: Tangerine, EB Garamond y BlackKnightFLF. 
+Imagen de portada generada con inteligencia artificial (prompt engineering). 
+Texto bíblico proveniente de fuente libre (archivos JSON). 
+
+---
 
 ## 📄 Licencia
 
 Este proyecto está licenciado bajo los términos de la MIT License.
+
+---
+
+## 📚 Créditos
+
+Creado con ❤️ por Leonardo Panzardo.
+
 
 ¡Gracias por visitar este repositorio! 🙏 Si te resulta útil, no dudes en dejar una ⭐️.
 
