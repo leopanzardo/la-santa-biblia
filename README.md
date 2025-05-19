@@ -19,7 +19,9 @@ Una aplicación móvil desarrollada con Flutter que te permite leer la Biblia co
 
 ## 📱 Capturas de pantalla
 
-*Próximamente...*
+| Versículo del Día | Libros | Capítulos | Versos |
+|-------------------|--------|-----------|--------|
+| ![](https://i.imgur.com/3vGLs7o.png) | ![](https://i.imgur.com/gei8uWY.png) | ![](https://i.imgur.com/uLEdK5T.png) | ![](https://i.imgur.com/bTOsUD7.png) |
 
 ---
 
