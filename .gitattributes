@@ -1,0 +1,9 @@
+# Ignorar código nativo de plataformas
+android/** linguist-vendored
+ios/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+
+# Asegurar que Dart sea considerado lenguaje principal
+*.dart linguist-detectable=true
