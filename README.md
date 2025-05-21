@@ -78,6 +78,8 @@ adb install -r build/app/outputs/apk/release/la_santa_biblia.apk
 - El scroll tiene rebote (bouncing) activado, con comportamiento personalizado.
 - La fuente BlackKnightFLF se utiliza en el encabezado de la app y se carga desde assets.
 
+---
+
 ## 👥 Autores y créditos
 
 - **Leonardo Panzardo**
@@ -96,6 +98,14 @@ Texto bíblico proveniente de fuente libre (archivos JSON).
 ## 📄 Licencia
 
 Este proyecto está licenciado bajo los términos de la MIT License.
+
+---
+
+## 🔐 Política de Privacidad
+
+La aplicación no recopila datos personales.  
+Podés leer la política completa aquí:  
+👉 [Política de Privacidad](https://github.com/leopanzardo/la-santa-biblia/blob/main/privacy-policy.md)
 
 ---
 

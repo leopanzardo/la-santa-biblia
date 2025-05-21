@@ -1,3 +1,6 @@
+import java.util.Properties
+import java.io.FileInputStream
+
 plugins {
     id("com.android.application")
     id("kotlin-android")
@@ -20,32 +23,57 @@ android {
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId = "com.leopanzardo.biblia"
-        // You can update the following values to match your application needs.
-        // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
     }
 
-    buildTypes {
-        release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.getByName("debug")
-        }
-    }
-    
-    android.applicationVariants.all {
-        this.outputs.forEach { output ->
-            if (output is com.android.build.gradle.internal.api.BaseVariantOutputImpl) {
-                output.outputFileName = "la_santa_biblia.apk"
+    signingConfigs {
+        create("release") {
+            val keyProperties = Properties()
+            val keyPropertiesFile = rootProject.file("key.properties")
+
+            if (keyPropertiesFile.exists()) {
+                keyProperties.load(FileInputStream(keyPropertiesFile))
+                val storeFilePath = keyProperties.getProperty("storeFile")
+                val storePassword = keyProperties.getProperty("storePassword")
+                val keyAlias = keyProperties.getProperty("keyAlias")
+                val keyPassword = keyProperties.getProperty("keyPassword")
+
+                println("DEBUG EN signingConfigs: storeFilePath=$storeFilePath, storePassword=$storePassword, keyAlias=$keyAlias, keyPassword=$keyPassword")
+
+                if (storeFilePath == null || storePassword == null || keyAlias == null || keyPassword == null) {
+                    throw GradleException("Faltan propiedades en key.properties")
+                }
+
+                this.storeFile = file(storeFilePath)
+                this.storePassword = storePassword
+                this.keyAlias = keyAlias
+                this.keyPassword = keyPassword
+            } else {
+                throw GradleException("Archivo key.properties no encontrado")
             }
         }
     }
 
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.getByName("release")
+            // Optional: enable minification or shrinking in release builds
+            // minifyEnabled = true
+            // shrinkResources = true
+            // proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+        }
+    }
+
+    applicationVariants.all {
+        outputs.all {
+            val outputImpl = this as com.android.build.gradle.internal.api.BaseVariantOutputImpl
+            outputImpl.outputFileName = "la_santa_biblia.apk"
+        }
+    }
 }
 
 flutter {
